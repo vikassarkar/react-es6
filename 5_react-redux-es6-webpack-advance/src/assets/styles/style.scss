@@ -1,0 +1,163 @@
+    $font-family-sans-serif: 'integral',
+    Tahoma,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+    $fonts-url-path: '~../fonts';
+    @font-face {
+        font-family: 'integral';
+        src: url('#{$fonts-url-path}/Integral.woff2') format('woff2');
+    }
+
+    @font-face {
+        font-family: 'integral-light';
+        src: url('#{$fonts-url-path}/Liteweight.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'integral-montserrat';
+        src: url('#{$fonts-url-path}/montserrat.woff') format('woff');
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'integral-light';
+    }
+
+    .home-banner {
+        .screen-banner {
+            display: block;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .screen-content-bg {
+            position: absolute;
+            top: 18%;
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+            .screen-content-box {
+                width: 41%;
+                margin: 0 auto;
+                background: #fff;
+                padding: 10rem 5rem;
+                border-radius: 15rem;
+            }
+        }
+        .user-redirector {
+            text-align: center;
+            .redirection-text {
+                font-size: 4rem;
+            }
+            .redirection-btn{}
+            
+        }
+        .more-redirector{
+            text-align: center;
+            .dark-container{
+                background: #000;
+                color: #fff;
+                padding: 5rem;
+                text-align: left;
+                .date-text{
+                    font-size: 2rem;
+                }
+                .description-text{
+                    font-size: 6rem;
+                    font-weight: bold;
+                    line-height: 1;
+                }
+            }
+        }
+        .btn-userpage {
+            margin-top:3rem;
+            padding: 1rem 5rem;
+            background: #000;
+        }
+        .card-img{
+            width: 60%;
+            height:60%;
+        }
+    }
+    /*common css*/
+
+    .no-gutters {
+        padding: 0;
+        margin: 0;
+    }
+
+    .btn {
+        border-radius: 0 !important;
+    }
+    /*media queries*/
+
+    @media (max-width: 768px) {
+        .home-banner {
+            .screen-content-bg {
+                top: 5%;
+                .screen-content-box {
+                    width: 70%;
+                    margin: 0 auto;
+                    background: #fff;
+                    padding: 5rem 4rem;
+                    border-radius: 15rem;
+                }
+            }
+        }
+        .xSpacer {
+            height: 5rem;
+        }
+        .btn {
+            width: 100% !important;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+        .xSpacer {
+            height: 6rem;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .xSpacer {
+            height: 8rem;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .xSpacer {
+            height: 9rem;
+        }
+    }
+    /*Extra media queries added for responsiveness*/
+
+    @media (max-width: 410px) {
+        .home-banner {
+            .screen-content-bg {
+                top: 1%;
+                .screen-content-box {
+                    width: 80%;
+                    padding: 3rem 5rem;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 300px) {
+        .home-banner {
+            .screen-content-bg {
+                display: none;
+            }
+        }
+    }

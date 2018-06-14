@@ -1,0 +1,6 @@
+export const ActionTypes = {
+    STORE_INITIATE: "STORE_INITIATE",
+    SET_DATA: "SET_DATA",
+    UPDATE_LIGHTBOX: "UPDATE_LIGHTBOX",
+    UPDATE_DATA: "UPDATE_DATA"
+};
