@@ -1,0 +1,13 @@
+
+
+@import "../fa-icons/scss/fontawesome.scss";
+@import "../fa-icons/scss/fa-brands.scss";
+@import "../fa-icons/scss/fa-regular.scss";
+@import "../fa-icons/scss/fa-solid.scss";
+
+$font-family-sans-serif: 'OpenSans-Light', Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fonts-url-path: '~../fonts';
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('#{$fonts-url-path}/OpenSans-Light.ttf') format('truetype');
+}

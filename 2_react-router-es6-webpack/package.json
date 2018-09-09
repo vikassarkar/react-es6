@@ -1,5 +1,5 @@
 {
-  "name": "1_react-es6-webpack",
+  "name": "2_react-router-es6-webpack",
   "version": "1.0.0",
   "description": "react tutorials",
   "keywords": [
@@ -12,7 +12,7 @@
     "build": "webpack --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "pooja rathore",
+  "author": "Vikas sarkar",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
