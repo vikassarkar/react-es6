@@ -1,5 +1,5 @@
 {
-  "name": "1_react-es6-webpack",
+  "name": "4_react-es6-webpack",
   "version": "1.0.0",
   "description": "react tutorials",
   "keywords": [
@@ -12,16 +12,17 @@
     "build": "webpack --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "pooja rathore",
+  "author": "vikas sarkar",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "bootstrap": "^4.0.0-beta",
     "jquery": "^3.3.1",
     "react": "^16.2.0",
-    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
+    "reactstrap": "^6.4.0",
     "redux": "^3.7.2",
-    "redux-devtools-extension": "^2.13.2",
     "webpack": "^4.1.1"
   },
   "devDependencies": {
@@ -35,6 +36,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.0.6",
+    "image-webpack-loader": "^4.3.1",
     "json-loader": "^0.5.7",
     "node-sass": "^4.7.2",
     "raw-loader": "^0.5.1",
